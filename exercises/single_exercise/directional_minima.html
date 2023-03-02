@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Directional minima</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="/Probability-Theory/exercises/css/LaTeXML.css" type="text/css" />
+    <link rel="stylesheet" href="/Probability-Theory/exercises/css/ltx-article.css" type="text/css" />
+    <script defer src="/Probability-Theory/exercises/js/LaTeXML-maybeMathjax.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="ltx_page_main">
+      <div class="ltx_page_content">
+        <article class="ltx_document">
+<div id="Thmexercise1" class="ltx_theorem ltx_theorem_exercise">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Exercise 1</span></span><span class="ltx_text ltx_font_bold"> </span>(Directional Minima)<span class="ltx_text ltx_font_bold">.</span></h6>
+<div id="Thmexercise1.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Let <math id="Thmexercise1.p1.m1" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math> be some differentiable function. For every direction
+<math id="Thmexercise1.p1.m2" class="ltx_Math" alttext="d\in\mathbb{R}^{n}" display="inline"><mrow><mi>d</mi><mo mathvariant="normal">∈</mo><msup><mi>ℝ</mi><mi>n</mi></msup></mrow></math> define</span></p>
+<table id="S0.Ex1" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex1.m1" class="ltx_Math" alttext="g_{d}(\alpha):=f(x^{*}+\alpha d)." display="block"><mrow><mrow><mrow><msub><mi>g</mi><mi>d</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>α</mi><mo stretchy="false">)</mo></mrow></mrow><mo>:=</mo><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msup><mi>x</mi><mo>*</mo></msup><mo>+</mo><mrow><mi>α</mi><mo>⁢</mo><mi>d</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr>
+</table>
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Assume that for every <math id="Thmexercise1.p1.m3" class="ltx_Math" alttext="d" display="inline"><mi>d</mi></math>, <math id="Thmexercise1.p1.m4" class="ltx_Math" alttext="g_{d}" display="inline"><msub><mi>g</mi><mi>d</mi></msub></math> is minimized by <math id="Thmexercise1.p1.m5" class="ltx_Math" alttext="\alpha=0" display="inline"><mrow><mi>α</mi><mo mathvariant="normal">=</mo><mn mathvariant="normal">0</mn></mrow></math>. Prove
+that</span></p>
+<ol id="S0.I1" class="ltx_enumerate">
+<li id="S0.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">(i)</span> 
+<div id="S0.I1.i1.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">We have necessarily </span><math id="S0.I1.i1.p1.m1" class="ltx_Math" alttext="\nabla f(x^{*})=0" display="inline"><mrow><mrow><mrow><mo>∇</mo><mo>⁡</mo><mi>f</mi></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0</mn></mrow></math><span class="ltx_text ltx_font_italic">.</span></p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I1.i1.p2" class="ltx_para">
+<p class="ltx_p">If we select a standard basis vector as the direction, then</p>
+<table id="S0.Ex2" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex2.m1" class="ltx_Math" alttext="0=g_{e_{i}}^{\prime}(\alpha)\Bigl{|}_{\alpha=0}=\langle\nabla f(x^{*}+\alpha e%&#10;_{i}),e_{i}\rangle\Bigl{|}_{\alpha=0}=\langle\nabla f(x^{*}),e_{i}\rangle" display="block"><mrow><mn>0</mn><mo>=</mo><msubsup><mi>g</mi><msub><mi>e</mi><mi>i</mi></msub><mo>′</mo></msubsup><mrow><mo stretchy="false">(</mo><mi>α</mi><mo stretchy="false">)</mo></mrow><mrow><msub><mo fence="true" maxsize="160%" minsize="160%">|</mo><mrow><mi>α</mi><mo>=</mo><mn>0</mn></mrow></msub><mo>=</mo><mrow><mo stretchy="false">⟨</mo><mo>∇</mo><mi>f</mi><mrow><mo stretchy="false">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo>+</mo><mi>α</mi><msub><mi>e</mi><mi>i</mi></msub><mo stretchy="false">)</mo></mrow><mo>,</mo><msub><mi>e</mi><mi>i</mi></msub><mo stretchy="false">⟩</mo></mrow><mrow><msub><mo fence="true" maxsize="160%" minsize="160%">|</mo><mrow><mi>α</mi><mo>=</mo><mn>0</mn></mrow></msub><mo>=</mo><mrow><mo stretchy="false">⟨</mo><mo>∇</mo><mi>f</mi><mrow><mo stretchy="false">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy="false">)</mo></mrow><mo>,</mo><msub><mi>e</mi><mi>i</mi></msub><mo stretchy="false">⟩</mo></mrow></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr>
+</table>
+<p class="ltx_p">So the <math id="S0.I1.i1.p2.m1" class="ltx_Math" alttext="i" display="inline"><mi>i</mi></math>-th entry of <math id="S0.I1.i1.p2.m2" class="ltx_Math" alttext="\nabla f(x^{*})" display="inline"><mrow><mrow><mo>∇</mo><mo>⁡</mo><mi>f</mi></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy="false">)</mo></mrow></mrow></math> is zero. As <math id="S0.I1.i1.p2.m3" class="ltx_Math" alttext="i" display="inline"><mi>i</mi></math> was
+arbitrary, we are done.
+∎</p>
+</div>
+</div></li>
+<li id="S0.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">(ii)</span> 
+<div id="S0.I1.i2.p1" class="ltx_para">
+<p class="ltx_p"><math id="S0.I1.i2.p1.m1" class="ltx_Math" alttext="f(x^{*})" display="inline"><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><msup><mi>x</mi><mo>*</mo></msup><mo stretchy="false">)</mo></mrow></mrow></math><span class="ltx_text ltx_font_italic"> is </span><em class="ltx_emph">not</em><span class="ltx_text ltx_font_italic"> necessarily a minimum of </span><math id="S0.I1.i2.p1.m2" class="ltx_Math" alttext="f" display="inline"><mi>f</mi></math><span class="ltx_text ltx_font_italic">.</span></p>
+</div>
+<div id="Thmhintx1" class="ltx_theorem ltx_theorem_hint">
+<h6 class="ltx_title ltx_runin ltx_title_theorem"><span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Hint</span></span><span class="ltx_text ltx_font_bold">.</span></h6>
+<div id="Thmhintx1.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Let <math id="Thmhintx1.p1.m1" class="ltx_Math" alttext="0&lt;p&lt;q" display="inline"><mrow><mn mathvariant="normal">0</mn><mo mathvariant="normal">&lt;</mo><mi>p</mi><mo mathvariant="normal">&lt;</mo><mi>q</mi></mrow></math> and define</span></p>
+<table id="S0.Ex3" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex3.m1" class="ltx_Math" alttext="f(y,z):=(z-py^{2})(z-qy^{2})" display="block"><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy="false">)</mo></mrow></mrow><mo>:=</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>z</mi><mo>-</mo><mrow><mi>p</mi><mo>⁢</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>z</mi><mo>-</mo><mrow><mi>q</mi><mo>⁢</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr>
+</table>
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">consider <math id="Thmhintx1.p1.m2" class="ltx_Math" alttext="x^{*}=(0,0)" display="inline"><mrow><msup><mi>x</mi><mo mathvariant="normal">*</mo></msup><mo mathvariant="normal">=</mo><mrow><mo mathvariant="normal" stretchy="false">(</mo><mn mathvariant="normal">0</mn><mo mathvariant="normal">,</mo><mn mathvariant="normal">0</mn><mo mathvariant="normal" stretchy="false">)</mo></mrow></mrow></math> and prove that <math id="Thmhintx1.p1.m3" class="ltx_Math" alttext="f(y,my^{2})&lt;0" display="inline"><mrow><mrow><mi>f</mi><mo mathvariant="italic">⁢</mo><mrow><mo mathvariant="normal" stretchy="false">(</mo><mi>y</mi><mo mathvariant="normal">,</mo><mrow><mi>m</mi><mo mathvariant="italic">⁢</mo><msup><mi>y</mi><mn mathvariant="normal">2</mn></msup></mrow><mo mathvariant="normal" stretchy="false">)</mo></mrow></mrow><mo mathvariant="normal">&lt;</mo><mn mathvariant="normal">0</mn></mrow></math> for <math id="Thmhintx1.p1.m4" class="ltx_Math" alttext="p&lt;m&lt;q" display="inline"><mrow><mi>p</mi><mo mathvariant="normal">&lt;</mo><mi>m</mi><mo mathvariant="normal">&lt;</mo><mi>q</mi></mrow></math>.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Solution.</h6>
+<div id="S0.I1.i2.p2" class="ltx_para ltx_noindent">
+<p class="ltx_p">Let <math id="S0.I1.i2.p2.m1" class="ltx_Math" alttext="0&lt;p&lt;q" display="inline"><mrow><mn>0</mn><mo>&lt;</mo><mi>p</mi><mo>&lt;</mo><mi>q</mi></mrow></math> and define</p>
+<table id="S0.Ex4" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex4.m1" class="ltx_Math" alttext="f(y,z):=(z-py^{2})(z-qy^{2})" display="block"><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy="false">)</mo></mrow></mrow><mo>:=</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mi>z</mi><mo>-</mo><mrow><mi>p</mi><mo>⁢</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>z</mi><mo>-</mo><mrow><mi>q</mi><mo>⁢</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr>
+</table>
+<p class="ltx_p">then for <math id="S0.I1.i2.p2.m2" class="ltx_Math" alttext="p&lt;m&lt;q" display="inline"><mrow><mi>p</mi><mo>&lt;</mo><mi>m</mi><mo>&lt;</mo><mi>q</mi></mrow></math> we have for <math id="S0.I1.i2.p2.m3" class="ltx_Math" alttext="y\neq 0" display="inline"><mrow><mi>y</mi><mo>≠</mo><mn>0</mn></mrow></math></p>
+<table id="S0.Ex5" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex5.m1" class="ltx_Math" alttext="f(y,my^{2})=(my^{2}-py^{2})(my^{2}-qy^{2})=\underbrace{y^{2}}_{&gt;0}\underbrace{%&#10;(m-p)}_{&gt;0}\underbrace{(m-q)}_{&lt;0}&lt;0." display="block"><mrow><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>y</mi><mo>,</mo><mrow><mi>m</mi><mo>⁢</mo><msup><mi>y</mi><mn>2</mn></msup></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mrow><mi>m</mi><mo>⁢</mo><msup><mi>y</mi><mn>2</mn></msup></mrow><mo>-</mo><mrow><mi>p</mi><mo>⁢</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mi>m</mi><mo>⁢</mo><msup><mi>y</mi><mn>2</mn></msup></mrow><mo>-</mo><mrow><mi>q</mi><mo>⁢</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><munder><munder accentunder="true"><msup><mi>y</mi><mn>2</mn></msup><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>&gt;</mo><mn>0</mn></mrow></munder><mo>⁢</mo><munder><munder accentunder="true"><mrow><mo movablelimits="false" stretchy="false">(</mo><mrow><mi>m</mi><mo movablelimits="false">-</mo><mi>p</mi></mrow><mo movablelimits="false" stretchy="false">)</mo></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>&gt;</mo><mn>0</mn></mrow></munder><mo>⁢</mo><munder><munder accentunder="true"><mrow><mo movablelimits="false" stretchy="false">(</mo><mrow><mi>m</mi><mo movablelimits="false">-</mo><mi>q</mi></mrow><mo movablelimits="false" stretchy="false">)</mo></mrow><mo movablelimits="false">⏟</mo></munder><mrow><mi></mi><mo>&lt;</mo><mn>0</mn></mrow></munder></mrow><mo>&lt;</mo><mn>0</mn></mrow><mo>.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr>
+</table>
+<p class="ltx_p">This means that <math id="S0.I1.i2.p2.m4" class="ltx_Math" alttext="f(0,0)=0" display="inline"><mrow><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0</mn></mrow></math> is not a minimum since we can get
+arbitrarily close to <math id="S0.I1.i2.p2.m5" class="ltx_Math" alttext="x^{*}=(0,0)" display="inline"><mrow><msup><mi>x</mi><mo>*</mo></msup><mo>=</mo><mrow><mo stretchy="false">(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo stretchy="false">)</mo></mrow></mrow></math> with <math id="S0.I1.i2.p2.m6" class="ltx_Math" alttext="(y,my^{2})" display="inline"><mrow><mo stretchy="false">(</mo><mi>y</mi><mo>,</mo><mrow><mi>m</mi><mo>⁢</mo><msup><mi>y</mi><mn>2</mn></msup></mrow><mo stretchy="false">)</mo></mrow></math> with smaller and
+smaller <math id="S0.I1.i2.p2.m7" class="ltx_Math" alttext="y" display="inline"><mi>y</mi></math>.</p>
+</div>
+<div id="S0.I1.i2.p3" class="ltx_para">
+<p class="ltx_p">Let <math id="S0.I1.i2.p3.m1" class="ltx_Math" alttext="d=(d_{1},d_{2})" display="inline"><mrow><mi>d</mi><mo>=</mo><mrow><mo stretchy="false">(</mo><msub><mi>d</mi><mn>1</mn></msub><mo>,</mo><msub><mi>d</mi><mn>2</mn></msub><mo stretchy="false">)</mo></mrow></mrow></math> be an arbitrary direction. Then</p>
+<table id="S0.EGx1" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+
+<tbody id="S0.Ex6"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex6.m1" class="ltx_Math" alttext="\displaystyle g_{d}(\alpha)" display="inline"><mrow><msub><mi>g</mi><mi>d</mi></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>α</mi><mo stretchy="false">)</mo></mrow></mrow></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex6.m2" class="ltx_Math" alttext="\displaystyle=(\alpha d_{2}-p(\alpha d_{1})^{2})(\alpha d_{2}-q(\alpha d_{1})^%&#10;{2})" display="inline"><mrow><mi></mi><mo>=</mo><mrow><mrow><mo stretchy="false">(</mo><mrow><mrow><mi>α</mi><mo>⁢</mo><msub><mi>d</mi><mn>2</mn></msub></mrow><mo>-</mo><mrow><mi>p</mi><mo>⁢</mo><msup><mrow><mo stretchy="false">(</mo><mrow><mi>α</mi><mo>⁢</mo><msub><mi>d</mi><mn>1</mn></msub></mrow><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mi>α</mi><mo>⁢</mo><msub><mi>d</mi><mn>2</mn></msub></mrow><mo>-</mo><mrow><mi>q</mi><mo>⁢</mo><msup><mrow><mo stretchy="false">(</mo><mrow><mi>α</mi><mo>⁢</mo><msub><mi>d</mi><mn>1</mn></msub></mrow><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex7"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex7.m2" class="ltx_Math" alttext="\displaystyle=\alpha^{2}(d_{2}-p\alpha d_{1}^{2})(d_{2}-q\alpha d_{1}^{2})" display="inline"><mrow><mi></mi><mo>=</mo><mrow><msup><mi>α</mi><mn>2</mn></msup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>d</mi><mn>2</mn></msub><mo>-</mo><mrow><mi>p</mi><mo>⁢</mo><mi>α</mi><mo>⁢</mo><msubsup><mi>d</mi><mn>1</mn><mn>2</mn></msubsup></mrow></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><msub><mi>d</mi><mn>2</mn></msub><mo>-</mo><mrow><mi>q</mi><mo>⁢</mo><mi>α</mi><mo>⁢</mo><msubsup><mi>d</mi><mn>1</mn><mn>2</mn></msubsup></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+<tbody id="S0.Ex8"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex8.m2" class="ltx_Math" alttext="\displaystyle=\alpha^{2}(d_{2}^{2}-\alpha d_{2}(p+q)d_{1}^{2}+\alpha^{2}pqd_{1%&#10;}^{2})" display="inline"><mrow><mi></mi><mo>=</mo><mrow><msup><mi>α</mi><mn>2</mn></msup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><msubsup><mi>d</mi><mn>2</mn><mn>2</mn></msubsup><mo>-</mo><mrow><mi>α</mi><mo>⁢</mo><msub><mi>d</mi><mn>2</mn></msub><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>p</mi><mo>+</mo><mi>q</mi></mrow><mo stretchy="false">)</mo></mrow><mo>⁢</mo><msubsup><mi>d</mi><mn>1</mn><mn>2</mn></msubsup></mrow></mrow><mo>+</mo><mrow><msup><mi>α</mi><mn>2</mn></msup><mo>⁢</mo><mi>p</mi><mo>⁢</mo><mi>q</mi><mo>⁢</mo><msubsup><mi>d</mi><mn>1</mn><mn>2</mn></msubsup></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td></tr></tbody>
+</table>
+<p class="ltx_p">Thus <math id="S0.I1.i2.p3.m2" class="ltx_Math" alttext="g^{\prime}(0)=0" display="inline"><mrow><mrow><msup><mi>g</mi><mo>′</mo></msup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>0</mn></mrow></math> and <math id="S0.I1.i2.p3.m3" class="ltx_Math" alttext="g^{\prime\prime}(0)=2d_{2}^{2}&gt;0" display="inline"><mrow><mrow><msup><mi>g</mi><mo>′′</mo></msup><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mn>2</mn><mo>⁢</mo><msubsup><mi>d</mi><mn>2</mn><mn>2</mn></msubsup></mrow><mo>&gt;</mo><mn>0</mn></mrow></math> which implies <math id="S0.I1.i2.p3.m4" class="ltx_Math" alttext="g" display="inline"><mi>g</mi></math> has a
+minimum in zero.
+∎</p>
+</div>
+</div></li>
+</ol>
+</div>
+</div>
+</article>
+
+      </div>
+    </div>
+
+    <script src="/Probability-Theory/exercises/js/collapsing_proofs.js" type="text/javascript"></script>
+  </body>
+</html>
